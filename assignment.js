@@ -1,15 +1,36 @@
-
-const fencingForAny = (edges, numberOfWire, rate) => {
-     let sum = 0;
-     for (let i =0; i < edges.length; i++){
-          sum = sum + edges[i];
-     }
-     edges.forEach(element => {
-          sum= sum +element;
-          
-     });
-     return sum * numberOfWire *rate;
-};
+const MapAssignment =(data) =>
+data.map(
+     (item) =>
+     `I am planning to do ${item.course} from ${item.institute} situated at  ${item.city} having contact number as ${item.moblieNo}`
+)
 console.log(
-     `cost for fensing is Rs.${fencingForAny(
-          [10, 15, 10, 10, 10, 10, 22], 5,10)}/-`)
+     MapAssignment([
+       {
+         course: "PDAC",
+         institute: "PickupBiz",
+         moblieNo: 9874561230,
+         city: "Nanded",
+       },
+       {
+         course: "Networking",
+         institute: "Seed Infotech",
+         moblieNo: 9874561555,
+         city: "pune",
+       },
+   
+       {
+         course: "DAC ",
+         institute: "C-DAC",
+         moblieNo: 987456523523,
+         city: "HYD",
+       },
+   
+       {
+         course: "HTML CSS",
+         institute: "Naresh IT",
+         moblieNo: 453636355,
+         city: "Mumbai",
+       },
+     ])
+   );
+
