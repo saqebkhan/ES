@@ -1,5 +1,4 @@
-const MapAssignment =(data) =>
-data.map(
+const MapAssignment = (saman) => saman.map (
      (item) =>
      `I am planning to do ${item.course} from ${item.institute} situated at  ${item.city} having contact number as ${item.moblieNo}`
 )
@@ -9,28 +8,28 @@ console.log(
          course: "PDAC",
          institute: "PickupBiz",
          moblieNo: 9874561230,
-         city: "Nanded",
+         city: "Nanded"
        },
        {
          course: "Networking",
          institute: "Seed Infotech",
          moblieNo: 9874561555,
-         city: "pune",
+         city: "pune"
        },
    
        {
          course: "DAC ",
          institute: "C-DAC",
          moblieNo: 987456523523,
-         city: "HYD",
+         city: "HYD"
        },
    
        {
          course: "HTML CSS",
          institute: "Naresh IT",
          moblieNo: 453636355,
-         city: "Mumbai",
+         city: "Mumbai"
        },
      ])
-   );
+   )
 
