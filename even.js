@@ -37,10 +37,15 @@
 // const EvenNumFinder = (num) => (num % 2 ===0 ?" even" : "odd ");
 // console.log(EvenNumFinder(33));
 
-const OddNumFinder = (num) => !(num% 2 ===1);
-console.log(OddNumFinder(2322));
+// const OddNumFinder = (num) => !(num% 2 ===0);
+// console.log(OddNumFinder(2322));
 //we can use "!" symbol for the inverse action as happened in the above eg.//
 
 
 // const DivisibleBySeven = (num) => (num% 7 ===0);
 // console.log(DivisibleBySeven(14));
+
+var meranam=("saqeb")
+var dasht=(`hello ${meranam}`)
+
+console.log(dasht)
