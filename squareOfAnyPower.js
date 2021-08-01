@@ -8,11 +8,3 @@
 
 
 
-const PeronsDetails = (details ) =>
- details.forEach(element => {
-    name + city+ pNumber;
- }); 
-
-console.log(PeronsDetails([rupesh , pune , 898989898]))
-
-
