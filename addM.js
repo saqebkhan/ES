@@ -24,6 +24,16 @@
 // addMe(27,23)
 // addMe(55,45)
 
-const AddNums= (num1, num2)=> ((num1 * num2 )/0.046);
+var AddNums =(num1, num2) =>{
+     should = ((num1 * num2 )/0.046);
+     console.log(should)
+}
 
-console.log(AddNums(10,10));
+AddNums(10,10);
+
+// const sums =(pela,dusra)=>{
+//     action=(pela+dusra)
+//     console.log(action)
+
+// }
+// sums(3,2)
