@@ -3,15 +3,8 @@ function textMe(){
 }
 textMe();
 textMe();
-textMe();
-textMe();
-textMe();
-function cantTalk(){
+const cantTalk=()=>{
     console.log("Can't Talk Right Now")
 }
-cantTalk();
-cantTalk();
-cantTalk();
-cantTalk();
 cantTalk();
 cantTalk();
