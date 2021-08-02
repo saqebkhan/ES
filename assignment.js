@@ -16,7 +16,6 @@ console.log(
          moblieNo: 9874561555,
          city: "pune"
        },
-   
        {
          course: "DAC ",
          institute: "C-DAC",
