@@ -1,27 +1,27 @@
-//const fensingForRect= (p,r, numberOfWIre, costPerFoot)=>{
-    // const parimeter= p*r*r;
-  //   const totalCost= parimeter* numberOfWIre * costPerFoot;
-//return totalCost;
-//};
-//console.log(`Total cost for fensing is Rs.${fensingForRect(10,12,5,10)}`);
+// const fensingForRect= (p,r, numberOfWIre, costPerFoot)=>{
+//     const parimeter= p*r*r;
+//     const totalCost= parimeter* numberOfWIre * costPerFoot;
+// return totalCost;
+// };
+// console.log(`Total cost for fensing is Rs.${fensingForRect(10,12,5,10)}`);
 
 // -----------------------------Even number-------------------------------------
 
 
-// const fencingForAny = (edges, numberOfWire, rate) => {
-//      let sum = 0;
-//      for (let i =0; i < edges.length; i++){
-//           sum = sum + edges[i];
-//      }
-//      edges.forEach(element => {
-//           sum= sum +element;
+const fencingForAny = (edges, numberOfWire, rate) => {
+     let sum = 0;
+     for (let i =0; i < edges.length; i++){
+          sum = sum + edges[i];
+     }
+     edges.forEach(element => {
+          sum= sum +element;
           
-//      });
-//      return sum * numberOfWire *rate;
-// };
-// console.log(
-//      `cost for fensing is Rs.${fencingForAny(
-//           [10, 15, 10, 10, 10, 10, 22], 5,10)}/-`)
+     });
+     return sum * numberOfWire *rate;
+};
+console.log(
+     `cost for fensing is Rs.${fencingForAny(
+          [10, 15, 10, 10, 10, 10, 22], 5,70)}/-`)
 
 // -------------------------------------Even And Odd number----------------------------
 
@@ -61,5 +61,5 @@
 // const doubled = numbers.map((number) => number * 4);
 // console.log(doubled);
 
-const name=("saqeb")
+// const name=("saqeb")
 // const message=(`hello ${name}`)
