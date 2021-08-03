@@ -122,14 +122,44 @@
 
 // import Math
 
-// console.log(Math.PI)
+// // console.log(Math.PI)
 
-const AreaOfCircle = (r) => Math.ceil(2 * Math.PI * r)
+// const AreaOfCircle = (r) => Math.ceil(2 * Math.PI * r)
 
-console.log(AreaOfCircle(5))
+// console.log(AreaOfCircle(5))
 
 // const sum = (b) => 5 + b
 
 // console.log(sum(5))
+
+// const solution=(second,minutes)=>{
+// var answer= 5*second+(300*minutes)
+// console.log(answer)
+// // }
+// // solution(5,2)
+// const soulution=(capacity,perHour)=>{
+//     const totalTime=(capacity/perHour)
+//     console.log(`time requred to fill the bucket is ${totalTime}`)
+
+// }
+// soulution(15,2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
