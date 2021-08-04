@@ -11,6 +11,6 @@ const findSquare = (num) =>{
     
         
     });
-    return square;
+    console.log(square);
 }
 console.log(findSquare([5,2,7,9,10]));
