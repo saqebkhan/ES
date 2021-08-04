@@ -22,6 +22,6 @@ const obj={
     
 
 }
-console.log(obj.includes('me'))
+console.log(obj)
 
 
