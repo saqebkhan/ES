@@ -1,15 +1,9 @@
 
-// const express =require("express")
-// const app = express();
-
-// if(app.listen(4786)){
-//     console.log("connected to local server:4786")
-// }
-
-const express =require("express")
+const express =require("express");
 const app = express();
-
-if(app.listen(4666)){
-    console.log("connected to local server:4666")
+const cors = requires("cors")
+app.use(cors());
+if(app.listen(9999)){
+    console.log("connected to local server:9999");
 }
 
