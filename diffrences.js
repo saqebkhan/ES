@@ -23,9 +23,7 @@
 
 // }
 // getDataLet();
-const FindName = num1 + num2;
-num1 =10 , num2 =20
-FindName();
+
 //function getDataConst(){
   //  if(true){
   //      const pi=3.14;
@@ -56,3 +54,8 @@ FindName();
 //};
 //console.log(`The Bigger Number is ${BiggerNum(23,56,75,23)}`)
 
+// const addition=(akda1,akda2)=>{
+//   const jama=(akda1+akda2)
+//   console.log(jama)
+// }
+// addition(2,5)
