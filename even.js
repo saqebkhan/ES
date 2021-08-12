@@ -1,8 +1,8 @@
-// for (t=2; t<=20; t++){
-//    if( t % 2 == 0){
-//        console.log(t)
-//    }
-// // }
+for (t=2; t<=20; t++){
+   if( t % 2 == 0){
+       console.log(t)
+   }
+}
 // function EvenNumFinder(num) {
 //     if (num % 2 ===0){
 //         return (true)
@@ -45,7 +45,7 @@
 // const DivisibleBySeven = (num) => (num% 7 ===0);
 // console.log(DivisibleBySeven(14));
 
-var meranam=("saqeb")
-var dasht=(`hello ${meranam}`)
+// var meranam=("saqeb")
+// var dasht=(`hello ${meranam}`)
 
-console.log(dasht)
+// console.log(dasht)
