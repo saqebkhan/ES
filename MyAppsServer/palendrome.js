@@ -1,23 +1,44 @@
-const palendrome=(str)=>{
-    const arrStr=str.split('');
-    for(let i =0; i< Math.floor(arrStr.length/2); i++){
-        if(arrStr[i]!==arrStr[arrStr.length-1-i]){
-            return false;
-        }
-    }
-    return true;
+// const palendrome=(str)=>{
+//     const arrStr=str.split('');
+//     for(let i =0; i< (arrStr.length/2); i++){
+//         if(arrStr[i]!==arrStr[arrStr.length-1-i]){
+//             return false;
+//         }
+//     }
+//     return true;
 
-}
-console.log(palendrome("madam"))
-console.log(palendrome("maadam"))
-console.log(palendrome("madaam"))
-console.log(palendrome("madama"))
-console.log(palendrome("mdadam"))
-console.log(palendrome("mladam"))
+// }
+// console.log(palendrome("madam"))
 
 
 // function palendromeOpt(str){
 //     return str === str.split("").reverse().join("")
 
 // }
-// console.log(palendromeOpt("khan"))
+// console.log(palendromeOpt("madam"))
+
+// const pal=(string)=>{
+// const arrString=string.split("");
+// for(i=0; i<(string.length/2); i++){
+//     if(arrString[i]!==arrString[arrString.length-1-i]);
+//     return false;
+// }
+// return true;
+// }
+// console.log(pal("khan"));
+
+
+
+
+
+
+const pepe=(sr)=>{
+const arsr=sr.split("")
+for(i=0; i<(sr.length/2); i++){
+if(arsr[i]!==arsr[arsr.length-1-i])
+return false
+}
+return true
+
+}
+console.log(pepe("madam"))
