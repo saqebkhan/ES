@@ -9,7 +9,7 @@
 // });
 // return cnt;
 // }
-// const strData ="the main written part of a book, newspaper, etc"
+// const strData ="the  written part of a book, part, etc"
 
 // console.log(subsExists(strData))
 
@@ -23,17 +23,17 @@
 
 
 
-// const subsExists = (str)=>{
-//     return str.split(" ").includes("nice")
-// }
-// const strData = "im the part of your life so this as a part good part"
-// console.log(subsExists(strData))
+const subsExists = (str)=>{
+    return str.split(" ").includes("life")
+}
+const strData = "im the part of your life so this as a part good part"
+console.log(subsExists(strData))
 
 
 
 // const subExists=(str)=>{
 //     arrStr=str.split(" ")
-//     cnt =0
+//     cnt = 0
 //     for (i=0; i<arrStr.length==="lorem"; i++){
 //         cnt = cnt + 1
 

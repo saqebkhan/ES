@@ -32,13 +32,26 @@
 
 
 
-const pepe=(sr)=>{
-const arsr=sr.split("")
-for(i=0; i<(sr.length/2); i++){
-if(arsr[i]!==arsr[arsr.length-1-i])
-return false
-}
-return true
+// const pepe=(sr)=>{
+// const arsr=sr.split("")
+// for(i=0; i<(sr.length/2); i++){
+// if(arsr[i]!==arsr[arsr.length-1-i])
+// return false
+// }
+// return true
 
-}
-console.log(pepe("madam"))
+// }
+// console.log(pepe("madam"))
+
+const paled=(String)=>{
+    const arrpaled=String.split("");
+    for(i=0; i<(String.length/2); i++){
+    if(arrpaled[i]!==arrpaled[arrpaled.length-1-i])
+    return false
+    
+    }
+    return true
+     
+    }
+
+    console.log(paled("refer"))
