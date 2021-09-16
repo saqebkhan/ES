@@ -1,15 +1,16 @@
-for (t=2; t<=20; t++){
-   if( t % 2 == 0){
-       console.log(t)
-   }
-}
-// function EvenNumFinder(num) {
-//     if (num % 2 ===0){
-//         return (true)
-//     }
-//     else
-//     return(false)
+// for (t=2; t<=20; t++){
+//    if( t % 2 == 0){
+//        console.log(t)
+//    }
 // }
+function EvenNumFinder(num) {
+    if (num % 2 ===0){
+        return true
+    }
+    else
+    return false
+}
+console.log(EvenNumFinder(6))
 //  console.log(EvenNumFinder(3))
 
 
