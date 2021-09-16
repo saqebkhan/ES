@@ -1,16 +1,16 @@
 
-// const CollectionSumOfEven=(Numbers) => {
-//     let sumEven = 0;
-//     let sumOdd = 0;
-//     Numbers.forEach((element) => {
-//          element % 2 == 0
-//          ? (sumEven = sumEven+ element)
-//          : (sumOdd = sumOdd + element);
-//     });
-//     return `Sum Of The Even Numbers are ${sumEven} and Sum of Odd Numbers are ${sumOdd}
-// Total Sum =${sumEven +sumOdd}`;
-// };
-// console.log(CollectionSumOfEven([1,2,3,4,5,6,7,8]));
+const CollectionSumOfEven=(Numbers) => {
+    let sumEven = 0;
+    let sumOdd = 0;
+    Numbers.forEach((element) => {
+         element % 2 == 0
+         ? (sumEven = sumEven+ element)
+         : (sumOdd = sumOdd + element);
+    });
+    return `Sum Of The Even Numbers are ${sumEven} and Sum of Odd Numbers are ${sumOdd}
+Total Sum =${sumEven +sumOdd}`;
+};
+console.log(CollectionSumOfEven([1,2,3,4,5,6,7,8]));
 
 // const pure =(akde)=>{
 //    let evenKaSum=0;
@@ -41,15 +41,15 @@
 // console.log(findSumOfEvennOdd([1,2,3,4,5,6,7,8,9]))
 
 
-const evenfinder =(number1,number2)=>{
-    if(number1>number2){
-        return number1
-    }
-    else {
-        return number2
-    }
-}
-console.log(evenfinder(2,-3))
+// const evenfinder =(number1,number2)=>{
+//     if(number1>number2){
+//         return number1
+//     }
+//     else {
+//         return number2
+//     }
+// }
+// console.log(evenfinder(2,-3))
 
 
 
