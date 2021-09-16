@@ -9,7 +9,6 @@ const findSquare = (num) =>{
     num.forEach(element => {
         square.push(element**2);
     
-        
     });
     console.log(square);
 }
