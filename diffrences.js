@@ -1,16 +1,16 @@
-// function getDataVar(){
-//     if(true){
-//         var name="khan";
-//         name="samad";
-//     }
-//     if(true){
-//        name="Pathan";
-//     }
+function getDataVar(){
+    if(true){
+        var name="khan";
+        name="samad";
+    }
+    if(true){
+       name="Pathan";
+    }
 
     
-//     console.log(name);
-// }
-// getDataVar();
+    console.log(name);
+}
+getDataVar();
 
 
 // function getDataLet(){
@@ -59,3 +59,5 @@
 //   console.log(jama)
 // }
 // addition(2,5)
+
+
