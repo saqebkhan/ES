@@ -8,3 +8,12 @@ arr1.forEach(element => {
     }
 });
 console.log(arr2)
+
+r=[1,2,3,4,5]
+mr=[]
+r.forEach((element)=>{
+    if(element>3){
+        mr.push(element)
+    }
+});
+console.log(mr)

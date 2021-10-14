@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="num">
+    <button onclick="table()">Get Table</button>
+</body>
+<script>
+    function table(){
+        var tableNum = document.getElementById("num").value;
+        for(i = 1; i<=10; i++){
+            document.write(`<h5>${tableNum} x ${i} = ${tableNum * i}</h5>`)
+        }
+    }
+</script>
+</html>
