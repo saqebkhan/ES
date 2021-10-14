@@ -13,19 +13,18 @@
 
 // function palendromeOpt(str){
 //     return str === str.split("").reverse().join("")
+// }
+// console.log(palendromeOpt("mm"))
 
-// }
-// console.log(palendromeOpt("madam"))
-
-// const pal=(string)=>{
-// const arrString=string.split("");
-// for(i=0; i<(string.length/2); i++){
-//     if(arrString[i]!==arrString[arrString.length-1-i]);
-//     return false;
-// }
-// return true;
-// }
-// console.log(pal("khan"));
+const pal=(string)=>{
+const arrString=string.split("");
+for(i=0; i<(string.length/2); i++){
+    if(arrString[i]!==arrString[arrString.length-1-i]);
+    return false;
+}
+return true;
+}
+console.log(pal("khan"));
 
 
 

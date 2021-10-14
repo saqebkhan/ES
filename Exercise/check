@@ -1,0 +1,1 @@
+Array.from(n.toString()).map(Number);

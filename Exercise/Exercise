@@ -1,0 +1,20 @@
+//Add without using + operator
+
+function add(x,y){
+    return -(-x)-(-y)
+}
+console.log(add(2,3))
+
+//Armstrong
+
+function Armstrong(number){
+    arrnumber=number.split("")
+    arrnumber.forEach((element)=>{
+        element=element*element*element;
+        // if(element+element+element==number){console.log("yes")}console.log("no");
+        console.log(element)
+        
+    })
+    
+}
+console.log(Armstrong("32"))
