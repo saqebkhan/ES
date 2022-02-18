@@ -88,10 +88,8 @@
 // }
 // console.log(square(6))
 
-
 // 25
 // 5
-
 
 // function sqrt(num){
 //   for(i=0; i<num; i++){
@@ -103,13 +101,101 @@
 // console.log(sqrt(3));
 
 // 60
-function div(num){
-  let myArr = [];
-  let total = 0;
-  for(let i=2; i<num; i++){
-    if(num%i == 0){
-      myArr.push(i), total++
-    }
-  }console.log(myArr, total)
-}
-div(60)
+// function div(num) {
+//   let myArr = [];
+//   let total = 0;
+//   for (let i = 2; i < num; i++) {
+//     if (num % i == 0) {
+//       myArr.push(i), total++;
+//     }
+//   }
+//   console.log(myArr, total);
+// }
+// div(60);
+
+// let num = 0;
+// if (0) {
+//   console.log("this is zero");
+// } else {
+//   console.log("this is not zero");
+// }
+
+// const num = [];
+
+// for (let i = 0; i < arr.length; i++){
+//   if (typeof( arr[i] ) == 'string' ){
+//     num.push(arr[i])
+//   }
+// }
+// console.log(num)
+
+// let str = "123amir89";
+// let arrStr = [];
+// for (let i = 0; i < str.length; i++) {
+//   if (!isNaN(Number(str[i]))) arrStr.push(str[i]);
+// }
+// console.log(arrStr);
+
+// let arr = [7, 2, 9, 5, 1, 8, 6, 3];
+// let ans = [];
+// for (let i = 0; i < arr.length; i++) {
+//   for (j = i + 1; j < arr.length; j++) {
+//     if (arr[i] + arr[j] == 9) {
+//       ans.push([arr[i], arr[j]]);
+//     }
+//   }
+// }
+// console.log(ans);
+
+// function loop(num){
+//   let sum = 0;
+//   for(let i = 1; i<=num; i++){
+//     sum += i;
+//   }return sum;
+// }
+// console.log(loop(1000000));
+
+// function algo(num){
+//   return num * ( num + 1 ) / 2;
+// }
+// console.log(algo(100));9`
+
+let array = [10, 20, 30, 40, 50, 60, 70];
+
+// // let array2 = [];
+// // for (let i = 0; i < array.length; i++) {
+// //   array2.push(array[] + 1);
+// // }
+// // console.log(array2);
+
+// // const array3 = [];
+// const array3 = array.map((element) => {
+//   return element + 1;
+// });
+
+// console.log(array3);
+
+// const arr = [];
+// const array2 = array.forEach((item) => {
+//   arr.push(item+1)
+// });
+// console.log(arr);
+
+// function noStr(str){
+//   let arrStr = str.split('');
+//   let ans = [];
+//   for(i = 0; i<arrStr.length; i++){
+//     if(!isNaN(Number((arrStr[i])))){
+//       ans.push(arrStr[i]);
+//     }
+//   }return ans;
+// }
+// console.log(noStr('123Amir890'));
+
+// console.log(isNaN("5"));
+
+
+
+
+
+
