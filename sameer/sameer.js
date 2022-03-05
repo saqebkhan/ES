@@ -160,7 +160,7 @@
 // }
 // console.log(algo(100));9`
 
-let array = [10, 20, 30, 40, 50, 60, 70];
+// let array = [10, 20, 30, 40, 50, 60, 70];
 
 // // let array2 = [];
 // // for (let i = 0; i < array.length; i++) {
@@ -194,8 +194,136 @@ let array = [10, 20, 30, 40, 50, 60, 70];
 
 // console.log(isNaN("5"));
 
+// let arr = [11, 10, 9, 8, 25];
+// let larg = Math.max(...arr)
+// let myArr = [];
 
+// for(let i = 1; i<=larg-1; i++){
+//   if(!arr.includes(i)){
+//     myArr.push(i)
+//   }
+// }
+// let a = [4,3,5,7,1,9,11];
+// console.log(a.slice(a.length-1, 1))
 
+// console.log(larg);
 
+// let arr = [
+//   [1, 2, 15],
+//   [4, 10, 6],
+//   [2, 8, 9],
+// ];
 
+// function matrix(arr) {
+//   let sum1 = 0;
+//   let sum2 = 0;
+//   for (let i = 0; i < arr.length; i++) {
+//     for (let j = i; j <= i; j++) {
+//       sum1 += arr[i][j];
+//     }
+//   }
+//   let reversedArr = arr.reverse();
+//   for (let i = 0; i < reversedArr.length; i++) {
+//     for (let j = i; j <= i; j++) {
+//       sum2 += reversedArr[i][j];
+//     }
+//   }
+//   return console.log(sum1 - sum2, sum1, sum2);
+// }
 
+// matrix(arr);
+
+// let arr = [20, 21, 1, 2, 3, 4, 50, 40, 10, 12].reduce((a, c) =>
+//   a > c ? a : c
+// );
+
+// function min(arr) {
+//   let sum = arr[0];
+//   for (let i = 0; i < arr.length; i++) {
+//     sum < arr[i] ? (sum = arr[i]) : sum;
+//   }
+//   return sum;
+// }
+
+// console.log(min(arr));
+
+// console.log(arr)
+
+// remove duplicate characters from the string
+
+// let str = "abcabcd"; //mirkhn
+
+// arr = ["dog", "dark", "car", "door", "dodge"]; input : 'do'; output : ['dog','door','dodge'];
+
+// const arr = ["dog", "dark", "cardo", "door", "dodge", "d", "mat"];
+// let input = "doo";
+// const ans = [];
+// for (let i = 0; i < arr.length; i++) {
+//   let str = arr[i];
+//   let result;
+//   for (let i = 0; i < input.length; i++) {
+//     if (str[i] === input[i]) result = true;
+//     else {
+//       result = false;
+//       break;
+//     }
+//   }
+//   if (result) ans.push(str);
+// }
+
+// console.log(ans);
+
+//
+
+// const arr = [5, 1, 3, 2, 6];
+
+// const output = arr.map((x) => x * 2);
+// console.log(output);
+
+// const arr = [5, 1, 3, 2, 6];
+
+// const output = arr.filter((x) => !(x % 2 ===0));
+// console.log(output);
+
+// const arr = [5, 1, 3, 2, 6];
+// function findMax(arr) {
+//   let max = 0;
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] > max) {
+//       max = arr[i];
+//     }
+//   }
+//   return max;
+// }
+// console.log(findMax(arr));
+
+// const output = arr.reduce(function (max, curr) {
+//   if (curr > max) {
+//     max = curr;
+//   }
+//   return max;
+// }, 0);
+// console.log(output)
+
+// const users = [
+//   { firstName: "samerer", lastName: "Shaikh", age: 21 },
+//   { firstName: "Saquib", lastName: "Khan", age: 23 },
+//   { firstName: "Touhid", lastName: "Khan", age: 22 },
+// ];
+// // const output = users.map((x) => x.firstName + " " +x.lastName);
+// // console.log(output);
+
+// const output = users.filter((x) => x.age < 30).map((x) => x.firstName);
+
+// console.log(output);
+
+const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// let result = arr.reduce((a,c=>{},0);
+
+//total
+
+// const output = arr.reduce((acc, curr) => acc + curr, 0);
+// console.log(output);
+
+const oddNumber = arr.filter((x) => (x % 2 === 0));
+console.log(oddNumber);
