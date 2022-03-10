@@ -317,7 +317,7 @@
 
 // console.log(output);
 
-const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 // let result = arr.reduce((a,c=>{},0);
 
 //total
@@ -325,5 +325,17 @@ const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 // const output = arr.reduce((acc, curr) => acc + curr, 0);
 // console.log(output);
 
-const oddNumber = arr.filter((x) => (x % 2 === 0));
-console.log(oddNumber);
+// const oddNumber = arr.filter((x) => (x % 2 === 0));
+// console.log(oddNumber);
+
+// const arr = [1, 2];
+
+// function multply() {
+//   const newArr = [];
+//   for (let i = 0; i < arr.length; i++) {
+//     newArr.push(arr[i] * 2);
+//   }
+// }
+// console.log(newArr);
+
+// multply(arr);

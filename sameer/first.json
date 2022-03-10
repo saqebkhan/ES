@@ -1,0 +1,12 @@
+{
+  "name": "sameer",
+  "score": 80.9,
+  "isAdmin": false,
+  "license": null,
+  "shopItem": ["food", "cloth", "edible oil"],
+  "myObj": {
+    "name": "nested",
+    "mark": 85,
+    "shopItem2": ["food", "cloth", "edible oil", { "a": true }]
+  }
+}
